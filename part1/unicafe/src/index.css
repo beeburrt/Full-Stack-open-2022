@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem;
+  background-color: burlywood;
+  font-size: 28px;
+  font-family: "Lobster", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  padding: 20px;
+}
+
+button {
+  margin: 0 1em;
+  padding: 0.5em 1em;
+  font-family: inherit;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button:hover,
+button:active {
+  background-color: black;
+  color: burlywood;
+  transform: scale(1.2);
+}
+
+p {
+  padding: 5px;
+}
+
+th {
+  text-align: left;
+}
