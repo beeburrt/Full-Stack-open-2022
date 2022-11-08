@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Fira Code', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #33EEFF;
+  color: #FF0000;
+  padding: 30px;
+}
+
