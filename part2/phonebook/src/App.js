@@ -6,22 +6,24 @@ function App() {
   const [persons, setPersons] = useState([{ name: "Arto Hellas" }]);
   const [newName, setNewName] = useState("");
 
+  console.log(persons);
+
   const handleChange = (evt) => {
-    console.log(evt.target.value);
     setNewName(evt.target.value);
   };
 
-  const handleSubmit = (evt) => {
+  const addName = (evt) => {
     evt.preventDefault();
-    // something here?
+    const newPerson = newName;
+
+    setPersons(persons.concat(newPerson));
     setNewName("");
   };
 
   return (
     <div>
       <h2>Phonebook</h2>
-
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={addName}>
         <div>
           name: <input onChange={handleChange} />
         </div>
@@ -31,6 +33,11 @@ function App() {
         </div>
       </form>
       <h2>Numbers</h2>
+      <ul>
+        {persons.map((person) => {
+          return <li key={newName}>{person.name}</li>;
+        })}
+      </ul>
     </div>
   );
 }

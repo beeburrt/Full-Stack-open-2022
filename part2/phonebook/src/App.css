@@ -1,14 +1,15 @@
 h2 {
   font-size: 2em;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, .75);
+}
+
+* {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 button {
-  padding: 4px;
-  background-color: #FF6666;
-  color: aliceblue;
-  font-weight: 900;
+  padding: 4px 8px;
+  margin-top: 12px;
+  font-size: 1rem;
   border-radius: 5px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, .50);
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, .50);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
